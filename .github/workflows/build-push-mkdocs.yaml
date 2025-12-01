@@ -44,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/1923154-lgtm/Mkdocs-HxH.git
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/francoagus95/mkdocs.git
 
 
       - name: Construir documentación
